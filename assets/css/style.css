@@ -64,3 +64,16 @@ hr { display: block; height: 1px;
     justify-content: center;
     flex-wrap: wrap;
 }
+
+h3 {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.webapps {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
