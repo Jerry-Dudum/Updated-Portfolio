@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
+body {
+    margin: 0 auto;
+}
 .navbar {
     background-color: black;
     justify-content: unset;
@@ -18,4 +20,47 @@ h1 {
     height: 60px;
     width: 60px;
     margin: 0px 15px;
+}
+
+#rocky {
+    float: left;
+    height: 600px;
+    width: 450px;
+    margin: 0 15px 15px 10px;
+}
+
+.container {
+    background-color: black;
+    margin-top: 15px;
+}
+
+p {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 24px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 38px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid white;
+    margin: 1em 0; padding: 0; 
+}
+
+#space {
+    height: 30px;
+    width: 100%;
+    background-color: white;
+}
+
+#portfolio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
