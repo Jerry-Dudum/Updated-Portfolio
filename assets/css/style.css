@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0 auto;
 }
+
 .navbar {
     background-color: black;
     justify-content: unset;
@@ -13,7 +15,7 @@ h1 {
     color: white;
     font-family: 'Exo 2', sans-serif;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 40px;
 }
 
 .icons {
@@ -63,6 +65,14 @@ hr { display: block; height: 1px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    border: solid white 5px;
+    margin-bottom: 20px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 h3 {
@@ -70,12 +80,13 @@ h3 {
     font-family: 'Exo 2', sans-serif;
     font-size: 30px;
     margin-bottom: 15px;
+    text-decoration: underline; 
 }
 
 .webapps {
     height: 200px;
     width: 200px;
-    margin: 10px;
+    margin: 15px;
     border: solid white;
     opacity: 1;
 }
@@ -109,4 +120,8 @@ a:hover {
 .icons:hover {
     -webkit-animation: tada 1s;
     animation: tada 1s;
+}
+
+.picture {
+    margin-bottom: 20px;
 }
