@@ -2,12 +2,13 @@
     box-sizing: border-box;
 }
 
+
 body {
     margin: 0 auto;
 }
 
 .navbar {
-    background-color: black;
+    background-image: url("../images/background.jpg");
     justify-content: unset;
 }
 
@@ -32,7 +33,7 @@ h1 {
 }
 
 .container {
-    background-color: black;
+    background-image: url("../images/background.jpg");
     margin-top: 15px;
 }
 
@@ -123,5 +124,6 @@ a:hover {
 }
 
 .picture {
+    margin-top: 20px;
     margin-bottom: 20px;
 }
