@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: black;
+    justify-content: unset;
+}
+
+h1 {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.icons {
+    height: 60px;
+    width: 60px;
+    margin: 0px 15px;
+}
