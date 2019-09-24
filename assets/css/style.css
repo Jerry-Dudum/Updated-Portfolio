@@ -77,3 +77,19 @@ h3 {
     width: 200px;
     margin: 10px;
 }
+
+a {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+a:hover {
+    color: gold;
+}
+
+.picture {
+    position: relative;
+    text-align: center;
+}
