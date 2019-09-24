@@ -5,6 +5,7 @@
 - CSS
 - Git
 - GitHub
+- Animate.css
 
 ## Summary
 
