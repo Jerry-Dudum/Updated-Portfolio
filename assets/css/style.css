@@ -77,6 +77,11 @@ h3 {
     width: 200px;
     margin: 10px;
     border: solid white;
+    opacity: 1;
+}
+
+.webapps:hover {
+    border: solid gold;
 }
 
 a {
@@ -99,4 +104,9 @@ a:hover {
     height: 100px;
     width: 100px;
     margin: 10px 20px;
+}
+
+.icons:hover {
+    -webkit-animation: tada 1s;
+    animation: tada 1s;
 }
